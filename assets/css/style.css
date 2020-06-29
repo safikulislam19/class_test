@@ -1,0 +1,89 @@
+/*****************************************************************************************
+*****************************************************************************************
+Project Name: 
+Author Name: 
+Project Section:
+				1.top header
+				2.Navber
+				3.slider
+				4.principal massage
+**********************************************************************************************
+**********************************************************************************************/
+/*************top header***********/
+*,body{
+	padding: 0;
+	margin: 0;
+}
+.top{
+	height: 50px;
+	width: 100%;
+	top: -60px;
+}
+.top-bg-color{
+	background-color: #56ab2f;
+}
+.list{
+	list-style: none;
+	display: inline-flex;
+}
+.list li{
+	padding: 10px;
+}
+.login_border{
+	padding-top: 10px;
+	color: #c7c7c7;
+}
+/***********End top header**********/
+
+/***********Navber*******************/
+.nav{
+	height: 80px;
+	width: 100%;
+	z-index: 1111;
+	top: 0;
+}
+.nav-bg-color{
+	background-color: #FFFFFF;
+}
+.nav-link{
+	font-weight: bold !important;
+}
+.active .nav-link{
+
+	color: #56ab2f !important;
+}
+.nav-link:hover{
+	color:/* */#56ab2f !important;
+}
+
+/*********** end Navber*******************/
+
+
+/***********slider*******************/
+
+
+/***********end slider*******************/
+
+
+/***********principal*******************/
+.about{
+	padding-left: 80px;
+}
+.about_margin{
+padding-top: 60px;
+}
+.about_bg{
+	background-image: url(../img/acadimy.png);
+	height: 90%;
+	width: 100%;
+	margin-left: 19%;
+	background-repeat: no-repeat;
+}
+.principle_img{
+	height: 83%;
+	width: 40%;
+	margin-top: 15%;
+	margin-left: -10%;
+}
+/***********end principal*******************/
+
